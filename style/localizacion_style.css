@@ -1,0 +1,127 @@
+section#banner{
+	width: 100%;
+	background-image: url(../pictures/localizacion.jpg);
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;}
+
+#body{
+	width: 100%;
+    background-color: #FFFFFF;}
+		
+		#banner{
+			width: 100%;
+		    height: 2530px;
+			background-color:#FFFFff;}
+		
+		#texto{
+			width: 1100px;
+		    height: 200px;
+		    margin: 50px auto 0;
+		    background-color: #FFFFFF;}
+
+.container{
+	margin: 100px auto;
+	position: relative;
+	display:contents;
+	justify-content: space-between;
+	align-items: center;
+	height: 660px;
+	width: 1100px;
+	transition: 0.5s;
+}
+
+.container .box{
+	margin: 50px auto;
+	position:relative;
+	height: 660px;
+	width: 950px;
+	background: #000;
+}
+
+.container .box .imgbx{
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container .box .imgbx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.container .box .contentbx{
+	position: absolute;
+	top: 40px;
+	bottom: 40px;
+	right: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,0.7);
+	transition: transform 0.5s;
+	transform-origin: right;
+	transform: scaleX(0);
+}
+
+.container .box:hover .contentbx{
+	transition: transform 0.5s;
+	transform-origin: left;
+	transform: scaleX(1);
+}
+
+.container .box:hover .imgbx img{
+	transform: scale(1.5) translateX(-50px);
+}
+
+.container .imgbox .box .contentbx .content{
+	position: relative;
+	padding: 20px 60px;
+	opacity: 0;
+}
+
+.container .box:hover .contentbx .content{
+	opacity: 1;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+
+.container .box .contentbx .content h2{
+	margin:40px 50px;
+	font-size: 30px;
+	color: #FECD56;
+}
+
+.container .box .contentbx .content p{
+	margin: 0 50px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+
+#texto2{
+			width: 1100px;
+		    height: 20px;
+		    margin: 0 auto;
+		    background-color: #FFFFFF;
+}
+
+#texto2 p{
+			text-align: center;
+			font-size: 20px;
+}
+		
+		p{
+			font-family: 'Montserrat', sans-serif;
+			text-align: justify;
+		    font-size: 25px;
+		    color: #000000;}

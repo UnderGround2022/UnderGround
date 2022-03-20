@@ -1,0 +1,279 @@
+section#banner{
+	width: 100%;
+	background-image: url("../pictures/muestra.jpg");
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;}
+
+.neon1{
+	font-family: Merienda;
+    font-size: 30px;
+	text-align: center;
+	color:#40AC33;
+    position:relative;}
+
+a:hover .neon1{
+	color: #45BB37;
+	text-shadow: 0 0 20px #45BB37;
+    position: relative;}
+
+a:hover .neon1:after{
+	content: attr(data-text);
+	top: 0;
+	left: 0;
+	z-index: 1;
+	color:#45BB37;
+	filter: blur(15px);
+	margin: 0 auto;
+	position: absolute;
+	padding: 0 75px;
+	text-align: center;
+}
+
+.neon2{
+	font-family: Merienda;
+    font-size: 30px;
+	text-align: center;
+	color:#45BB37;
+    position:relative;}
+
+a:hover .neon2{
+	color: #40AC33;
+	text-shadow: 0 0 20px #45BB37;
+    position: relative;}
+
+a:hover .neon2:after{
+	content: attr(data-text);
+	top: 0;
+	left: 0;
+	z-index: 1;
+	color:#45BB37;
+	filter: blur(15px);
+	margin: 0 auto;
+	position: absolute;
+	padding: 0 25px;
+	text-align: center;
+}
+
+a:hover.neon2:before {
+	content: "";
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #80D676;
+	z-index: 1;
+	opacity: .5;
+	filter: blur(40px);
+}
+
+.neon3{
+	font-family: Merienda;
+    font-size: 30px;
+	text-align: center;
+	color:#45BB37;
+    position:relative;}
+
+a:hover .neon3{
+	color: #40AC33;
+	text-shadow: 0 0 20px #45BB37;
+    position: relative;}
+
+a:hover .neon3:after{
+	content: attr(data-text);
+	top: 0;
+	left: 0;
+	z-index: 1;
+	color:#45BB37;
+	filter: blur(15px);
+	margin: 0 auto;
+	position: absolute;
+	padding: 0 10px;
+	text-align: center;
+}
+
+a:hover.neon3:before {
+	content: "";
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #80D676;
+	z-index: 1;
+	opacity: .5;
+	filter: blur(40px);
+}
+
+
+#body{
+	width: 100%;
+	height: 1000px;
+    background-color: #FFFFFF;}
+
+		#contenedor{
+			width: 100%;
+		    height: 1600px;
+		    background-color:#FFFFFF;
+		    margin: auto;}
+		
+		#banner{
+			width: 100%;
+		    height:1280px;
+			background-color:#FFFFFF;}
+		
+.box{
+	position: relative;
+	transform: translate(0,0);
+	width: 425px;
+	height: 540px;
+	margin: 5% 0 0 13%;
+	float: left;
+}
+
+.box .layer1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	transition: 0.5s;
+	background: #FFFFFF;
+	z-index: 3;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.box:hover .layer1{
+	top: -10px;
+	left: 10px;
+	box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+.box:hover .layer1:before{
+	left: -50%;
+}
+
+.box .layer2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	transition: 0.5s;
+	background: #FFFFFF;
+	z-index: 2;
+	border-radius: 20px;
+}
+
+.box:hover .layer2{
+	top: 0px;
+	left: 0px;
+	box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+.box .layer3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	transition: 0.5s;
+	background: #FFFFFF;
+	z-index: 1;
+	box-shadow: 0 20px 100px rgba(0,0,0,1);
+	border-radius: 20px;
+}
+
+.box:hover .layer3{
+	top: 10px;
+	left: -10px;
+}
+
+.box2{
+	position: relative;
+	width: 425px;
+	height: 540px;
+	margin: 5% 13% 0 0;
+	float: right;
+	transform: translate(0,0);
+}
+
+.box2 .layer1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	transition: 0.5s;
+	background: #FFFFFF;
+	z-index: 3;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.box2:hover .layer1{
+	top: -10px;
+	left: 10px;
+	box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+.box2:hover .layer1:before{
+	left: -50%;
+}
+
+.box2 .layer2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	transition: 0.5s;
+	background: #FFFFFF;
+	z-index: 2;
+	border-radius: 20px;
+}
+
+.box2:hover .layer2{
+	top: 0px;
+	left: 0px;
+	box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+.box2 .layer3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E3E3E3;
+	box-sizing: border-box;
+	transition: 0.5s;
+	background: #FFFFFF;
+	z-index: 1;
+	box-shadow: 0 20px 100px rgba(0,0,0,1);
+	border-radius: 20px;
+}
+
+.box2:hover .layer3{
+	top: 10px;
+	left: -10px;
+}
+		p{
+			font-family: Kalam;
+		    font-size: 25px;
+		    text-align: center;
+		    margin: 10px 10px 10px 10px;
+		    color: #000000;}
+		
