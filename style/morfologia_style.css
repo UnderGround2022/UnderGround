@@ -1,6 +1,6 @@
 section#banner{
 	width: 100%;
-	background-image: url("../pictures/geologia.jpg");
+	background-image: url("../pictures/morfologia.jpg");
 	background-attachment: contain;
 	background-position: center;
 	background-repeat: no-repeat;}
@@ -18,44 +18,56 @@ section#banner{
 		
 		#banner{
 			width: 100%;
-		    height: 8140px;
+		    height: 3700px;
 			background-color:#FFFFFF;}
 
 #texto{
 			width: 1100px;
-		    height: 3900px;
+		    height: 440px;
 		    margin: 50px auto 0;
 		    background-color: #FFFFFF;}
-#geo{
+#mapa{
 	width: 950px;
-	height: 660px;
-	margin: 20px auto;
-}
-
-#texto2{
-	width: 1100px;
-	height: 550px;
-	margin: 50px auto;
-	background-color: #FFFFFF;
-}
-
-#anfibolita{
-	width: 800px;
-	height: 600px;
+	height: 802px;
 	margin: 50px auto;
 }
 
-#texto3{
-	width: 1100px;
-	height: 270px;
-	margin: 50px auto;
-	background-color: #FFFFFF;
+#litologia{
+	width: 1000px;
+	height: 614px;
+	margin: auto;
 }
 
-#migmatita{
-	width: 450px;
-	height: 600px;
-	margin: 50px auto;
+#litologia1{
+	float: left;
+	width: 500px;
+	height: 614px;
+}
+
+#litologia2{
+	float: right;
+	width: 500px;
+	height: 439px;
+}
+
+#textoreferencia{
+	margin: auto;
+	margin-top: 20px;
+	
+	width: 1000px;
+	height: 60px;
+}
+
+#textoreferencia p{
+	text-align: center;
+	font-size: 20px;
+}
+
+#texto1{
+			width: 1100px;
+		    height: 900px;
+		    margin: 50px auto 0;
+		    background-color: #FFFFFF;
 }
 
 .box{
@@ -63,7 +75,7 @@ section#banner{
 	transform: translate(0,0);
 	width: 425px;
 	height: 545px;
-	margin: 2% 0 0 13%;
+	margin: 5% 0 0 13%;
 	float: left;
 }
 
@@ -136,7 +148,7 @@ section#banner{
 	position: relative;
 	width: 425px;
 	height: 545px;
-	margin: 2% 13% 0 0;
+	margin: 5% 13% 0 0;
 	float: right;
 	transform: translate(0,0);
 }
@@ -206,81 +218,6 @@ section#banner{
 	left: -10px;
 }
 
-.box3{
-	position: relative;
-	transform: translate(0,0);
-	width: 425px;
-	height: 545px;
-	margin: 5% 0 0 34%;
-	float: left;
-}
-
-.box3 .layer1{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: 1px solid #E3E3E3;
-	box-sizing: border-box;
-	transition: 0.5s;
-	background: #FFFFFF;
-	z-index: 3;
-	overflow: hidden;
-	border-radius: 20px;
-}
-
-.box3:hover .layer1{
-	top: -10px;
-	left: 10px;
-	box-shadow: 0 5px 20px rgba(0,0,0,1);
-}
-
-.box3:hover .layer1:before{
-	left: -50%;
-}
-
-.box3 .layer2{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: 1px solid #E3E3E3;
-	box-sizing: border-box;
-	transition: 0.5s;
-	background: #FFFFFF;
-	z-index: 2;
-	border-radius: 20px;
-}
-
-.box3:hover .layer2{
-	top: 0px;
-	left: 0px;
-	box-shadow: 0 5px 20px rgba(0,0,0,1);
-}
-
-.box3 .layer3{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: 1px solid #E3E3E3;
-	box-sizing: border-box;
-	transition: 0.5s;
-	background: #FFFFFF;
-	z-index: 1;
-	box-shadow: 0 20px 100px rgba(0,0,0,1);
-	border-radius: 20px;
-}
-
-.box3:hover .layer3{
-	top: 10px;
-	left: -10px;
-}
-
-
 .neon1{
 	font-family: 'Bree Serif', serif;
     font-size: 30px;
@@ -302,7 +239,7 @@ a:hover .neon1:after{
 	filter: blur(15px);
 	margin: 0 auto;
 	position: absolute;
-	padding: 0 125px;
+	padding: 0 150px;
 	text-align: center;
 }
 
@@ -340,49 +277,11 @@ a:hover .neon2:after{
 	filter: blur(15px);
 	margin: 0 auto;
 	position: absolute;
-	padding: 0 150px;
-	text-align: center;
-}
-
-a:hover.neon2:before {
-	content: "";
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #FEEFCA;
-	z-index: 1;
-	opacity: .5;
-	filter: blur(40px);
-}
-
-.neon3{
-	font-family: 'Bree Serif', serif;
-    font-size: 30px;
-	text-align: center;
-	color:#FECD56;
-    position:relative;}
-
-a:hover .neon3{
-	color: #FECD56;
-	text-shadow: 0 0 20px #FED980;
-    position: relative;}
-
-a:hover .neon3:after{
-	content: attr(data-text);
-	top: 0;
-	left: 0;
-	z-index: 1;
-	color:#FED980;
-	filter: blur(15px);
-	margin: 0 auto;
-	position: absolute;
 	padding: 0 110px;
 	text-align: center;
 }
 
-a:hover.neon3:before {
+a:hover.neon2:before {
 	content: "";
 	position: relative;
 	top: 0;
@@ -403,13 +302,6 @@ a:hover.neon3:before {
 		    color: #000;}
 
 .box2 p{
-			font-family: 'Montserrat', sans-serif;
-		    font-size: 25px;
-		    text-align: justify;
-		    margin: 10px 10px 10px 10px;
-		    color: #000;}
-
-.box3 p{
 			font-family: 'Montserrat', sans-serif;
 		    font-size: 25px;
 		    text-align: justify;

@@ -1,0 +1,22 @@
+section#banner{
+	width: 100%;
+	background-image: url("../pictures/lab.jpg");
+	background-attachment: contain;
+	background-position: center;
+	background-repeat: no-repeat;}
+
+#body{
+	width: 100%;
+	height: 1000px;
+    background-color: #FFFFFF;}
+
+		#contenedor{
+			width: 100%;
+		    height: 1600px;
+		    background-color:#FFFFFF;
+		    margin: auto;}
+		
+		#banner{
+			width: 100%;
+		    height: 1000px;
+			background-color:#FFFFFF;}

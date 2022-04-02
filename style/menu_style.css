@@ -76,6 +76,78 @@
 	filter: blur(40px);
 }
 
+.neonI{
+	color: #FFFFFF;
+	text-decoration: none;
+    width: 200px;
+	height: 50px;
+    position:relative;
+}
+
+.neonI:hover{
+	color: #FECD56;
+	text-shadow: 0 0 20px #FECD56;
+    position: relative;
+}
+
+.neonI:hover:after{
+	content: attr(data-text);
+	top: 0;
+	left: 0;
+	color: #FED980;
+	filter: blur(15px);
+	position: absolute;
+	padding: 0 70px;
+}
+
+.neonI:hover:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #FEEFCA;
+	opacity: .5;
+	filter: blur(40px);
+}
+
+.neonL{
+	color: #FFFFFF;
+	text-decoration: none;
+    width: 200px;
+	height: 50px;
+    position:relative;
+}
+
+.neonL:hover{
+	color: #FECD56;
+	text-shadow: 0 0 20px #FECD56;
+    position: relative;
+}
+
+.neonL:hover:after{
+	content: attr(data-text);
+	top: 0;
+	left: 0;
+	color: #FED980;
+	filter: blur(15px);
+	position: absolute;
+	padding: 0 30px;
+}
+
+.neonL:hover:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #FEEFCA;
+	opacity: .5;
+	filter: blur(40px);
+}
+
 header{
 	position: fixed;
 	width: 100%;
