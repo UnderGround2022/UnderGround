@@ -18,101 +18,27 @@ section#banner{
 		
 		#banner{
 			width: 100%;
-		    height: 2060px;
+		    height: 2640px;
 			background-color:#FFFFFF;}
 
 #texto{
 			width: 1100px;
-		    height: 600px;
-		    margin: 50px auto 0;
+		    height: 870px;
+		    margin: 50px auto;
 		    background-color: #FFFFFF;
 }
 
-.container{
-	margin: 100px auto;
-	position: relative;
-	display:contents;
-	justify-content: space-between;
-	align-items: center;
-	height: 672px;
-	width: 1100px;
-	transition: 0.5s;
-}
-
-.container .box{
+#suelo{
 	margin: 50px auto;
-	position:relative;
 	height: 672px;
 	width: 950px;
-	background: #000;
 }
 
-.container .box .imgbx{
-	position: absolute;
-	overflow: hidden;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-}
-
-.container .box .imgbx img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	transition: 0.5s;
-}
-
-.container .box .contentbx{
-	position: absolute;
-	top: 40px;
-	bottom: 40px;
-	right: 40px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgba(0,0,0,0.7);
-	transition: transform 0.5s;
-	transform-origin: right;
-	transform: scaleX(0);
-}
-
-.container .box:hover .contentbx{
-	transition: transform 0.5s;
-	transform-origin: left;
-	transform: scaleX(1);
-}
-
-.container .box:hover .imgbx img{
-	transform: scale(1.5) translateX(-50px);
-}
-
-.container .imgbox .box .contentbx .content{
-	position: relative;
-	padding: 20px 60px;
-	opacity: 0;
-}
-
-.container .box:hover .contentbx .content{
-	opacity: 1;
-	transition: 0.5s;
-	transition-delay: 0.5s;
-}
-
-.container .box .contentbx .content h2{
-	margin:40px 50px;
-	font-size: 30px;
-	color: #FECD56;
-}
-
-.container .box .contentbx .content p{
-	margin: 0 50px;
-	font-size: 25px;
-	color: #FFFFFF;
+#texto2{
+	width: 1100px;
+	height: 260px;
+	margin: 50px auto;
+	background-color: #FFFFFF;
 }
 
 .box1{

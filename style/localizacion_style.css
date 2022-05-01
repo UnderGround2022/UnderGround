@@ -11,122 +11,162 @@ section#banner{
 		
 		#banner{
 			width: 100%;
-		    height: 2940px;
+		    height: 11280px;
 			background-color:#FFFFFF;}
 		
 		#texto{
 			width: 1100px;
-		    height: 200px;
+		    height: 180px;
 		    margin: 50px auto 0;
-		    background-color: #FFFFFF;}
+		    background-color: #FFFFFF;
+}
+
+#america{
+	margin: 50px auto;
+	height: 550px;
+	width: 550px;
+}
+
 #texto1{
 			width: 1100px;
-		    height: 250px;
+		    height: 160px;
 		    margin: auto;
 	margin-top: 70px;
 	margin-bottom: 70px;
 		    background-color: #FFFFFF;}
 
-.container{
-	margin: 100px auto;
-	position: relative;
-	display:contents;
-	justify-content: space-between;
-	align-items: center;
-	height: 660px;
-	width: 1100px;
-	transition: 0.5s;
-}
-
-.container .box{
+#colombia{
 	margin: 50px auto;
-	position:relative;
-	height: 660px;
+	height: 550px;
 	width: 950px;
-	background: #000;
 }
 
-.container .box .imgbx{
-	position: absolute;
-	overflow: hidden;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-}
-
-.container .box .imgbx img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	transition: 0.5s;
-}
-
-.container .box .contentbx{
-	position: absolute;
-	top: 40px;
-	bottom: 40px;
-	right: 40px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgba(0,0,0,0.7);
-	transition: transform 0.5s;
-	transform-origin: right;
-	transform: scaleX(0);
-}
-
-.container .box:hover .contentbx{
-	transition: transform 0.5s;
-	transform-origin: left;
-	transform: scaleX(1);
-}
-
-.container .box:hover .imgbx img{
-	transform: scale(1.5) translateX(-50px);
-}
-
-.container .imgbox .box .contentbx .content{
-	position: relative;
-	padding: 20px 60px;
-	opacity: 0;
-}
-
-.container .box:hover .contentbx .content{
-	opacity: 1;
-	transition: 0.5s;
-	transition-delay: 0.5s;
-}
-
-.container .box .contentbx .content h2{
-	margin:40px 50px;
-	font-size: 30px;
-	color: #FECD56;
-}
-
-.container .box .contentbx .content p{
-	margin: 0 50px;
-	font-size: 25px;
-	color: #FFFFFF;
-}
-
-
-#texto2{
+#referencia{
 			width: 1100px;
 		    height: 50px;
 		    margin: 0 auto;
 		    background-color: #FFFFFF;
 }
 
-#texto2 p{
+#referencia p{
 			text-align: center;
 			font-size: 20px;
 }
-		
+
+#referencia a{
+	font-family: 'Montserrat', sans-serif;
+		    font-size: 20px;
+		    color: #000000;
+}
+
+#texto2{
+	width: 1100px;
+	height: 140px;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	background-color: #FFFFFF;
+}
+
+#metropolitana{
+	width: 699px;
+	height: 550px;
+	margin: 50px auto;
+}
+
+#veredas{
+	width: 950px;
+	height: 660px;
+	margin: 50px auto;
+}
+
+#texto3{
+	width: 1100px;
+	height: 340px;
+	margin: 70px auto;
+	background-color: #FFFFFF;
+}
+
+#map{
+	margin: auto;
+	margin-top: 50px;
+			width: 100%;
+		    height: 475px;
+			background-color:#FFFFFF;
+}
+
+.maps .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 736px;
+      height: 475px;
+	background: #ffffff;
+}
+
+#mapa{
+	width: 950px;
+	height: 550px;
+	margin: 70px auto;
+}
+
+#texto4{
+	width: 1100px;
+	height: 920px;
+	margin: 70px auto;
+	background-color: #FFFFFF;
+}
+
+#texto4 a{
+	font-family: 'Montserrat', sans-serif;
+		    font-size: 25px;
+		    color: #000000;
+}
+
+#seditrans{
+	width: 550px;
+	height: 300px;
+	margin: 30px auto;
+}
+
+#texto5{
+	width: 1100px;
+	height: 650px;
+	margin: 70px auto;
+	background-color: #FFFFFF;
+}
+
+#bus{
+	width: 512px;
+	height: 500px;
+	margin: 30px auto;
+}
+
+#texto6{
+	width: 1100px;
+	height: 550px;
+	margin: 70px auto;
+	background-color: #FFFFFF;
+}
+
+#combuses{
+	width: 563px;
+	height: 400px;
+	margin: 30px auto;
+}
+
+#texto7{
+	width: 1100px;
+	height: 440px;
+	margin: 70px auto;
+	background-color: #FFFFFF;
+}
+
+#taxi{
+	width: 373px;
+	height: 200px;
+	margin: 30px auto;
+}
+
 		p{
 			font-family: 'Montserrat', sans-serif;
 			text-align: justify;

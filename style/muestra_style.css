@@ -18,7 +18,7 @@ section#banner{
 		
 #banner{
 	width: 100%;
-	height: 19500px;
+	height: 19980px;
 	background-color:#FFFFFF;
 }
 
@@ -194,7 +194,7 @@ section#banner{
 
 #curva{
 	width: 738px;
-	height: 443px;
+	height: 449px;
 	margin: 50px auto;
 }
 
@@ -245,8 +245,8 @@ section#banner{
 }
 
 #flujo{
-	width: 618px;
-	height: 379px;
+	width: 738px;
+	height: 443px;
 	margin: 50px auto;
 }
 
@@ -298,8 +298,15 @@ section#banner{
 
 #casa{
 	width: 882px;
-	height: 437px;
+	height: 465px;
 	margin: 50px auto;
+}
+
+#texto14{
+	width: 1100px;
+	height: 450px;
+	margin: 50px auto;
+	background-color: #FFFFFF; 
 }
 
 table.tableizer-table {

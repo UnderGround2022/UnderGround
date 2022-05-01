@@ -18,7 +18,7 @@ section#banner{
 		
 		#banner{
 			width: 100%;
-		    height: 3700px;
+		    height: 5550px;
 			background-color:#FFFFFF;}
 
 #texto{
@@ -26,6 +26,7 @@ section#banner{
 		    height: 440px;
 		    margin: 50px auto 0;
 		    background-color: #FFFFFF;}
+
 #mapa{
 	width: 950px;
 	height: 802px;
@@ -53,7 +54,6 @@ section#banner{
 #textoreferencia{
 	margin: auto;
 	margin-top: 20px;
-	
 	width: 1000px;
 	height: 60px;
 }
@@ -65,7 +65,30 @@ section#banner{
 
 #texto1{
 			width: 1100px;
-		    height: 900px;
+		    height: 950px;
+		    margin: 50px auto 0;
+		    background-color: #FFFFFF;
+}
+
+#talud{
+	margin: auto;
+	margin-top: 50px;
+			width: 100%;
+		    height: 475px;
+			background-color:#FFFFFF;
+}
+
+.taludes .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 736px;
+      height: 475px;
+	background: #ffffff;
+}
+
+#texto2{
+			width: 1100px;
+		    height: 550px;
 		    margin: 50px auto 0;
 		    background-color: #FFFFFF;
 }
